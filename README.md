@@ -69,3 +69,6 @@ add this in to the `vimrc` file:
 Plugin 'nvie/vim-flake8'
 ```
 Run this command:
+```bash
+vim +PluginInstall +qall
+```
