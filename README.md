@@ -2,12 +2,16 @@
 I am going to upload my vim configuration in this directory
 
 ## Plugins
-
-[Asynchronous Lint Engine](https://github.com/dense-analysis/ale)
+* [VundleVim](https://github.com/VundleVim/Vundle.vim)
+  This Work as Vim Package Manager
+* [Asynchronous Lint Engine](https://github.com/dense-analysis/ale)
+  
 
 ### Installation:
 
-#### Step1
+#### VundleVim:
+
+##### Step1:
 
 ```console
 cd ~/.vim/bundle
@@ -17,6 +21,6 @@ cd ~/.vim/bundle
   mkdir ~/.vim/bundle
   ```
 ```console
-git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/pack/git-plugins/start/ale
+git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/bundle
 ```
 
