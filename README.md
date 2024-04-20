@@ -5,7 +5,7 @@ I am going to upload my vim configuration in this directory
 * [VundleVim:](https://github.com/VundleVim/Vundle.vim)
   This Work as Vim Package Manager
 * [Asynchronous Lint Engine:](https://github.com/dense-analysis/ale)
-  
+* [Flake8](https://github.com/nvie/vim-flake8?tab=readme-ov-file) 
 
 ### Installation:
 
@@ -48,6 +48,12 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 ```
+##### Step3:
+run this command in your vim:
+inorder to run a command in vim you should type `:` and then write your command.
+```vim
+:PluginInstall
+```
 
 #### Asynchronous Lint Engine:
 ##### Step1:
@@ -62,8 +68,14 @@ cd ~/.vim/bundle
 ```console
 git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/bundle
 ```
+##### Step2:
+run this command in your vim:
+inorder to run a command in vim you should type `:` and then write your command.
+```vim
+:PluginInstall
+`````
 
-#### Flake8
+#### Flake8:
 add this in to the `vimrc` file:
 ```vim
 Plugin 'nvie/vim-flake8'
